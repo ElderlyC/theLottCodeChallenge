@@ -1,0 +1,32 @@
+.selectedNumbers {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 5px;
+}
+
+.circle.selected {
+  background-color: #0b5394;
+  color: white;
+  border-color: #0b5394;
+}
+
+.powerball.selected {
+  background-color: #9e9d9d;
+  color: white;
+  border-color: #9e9d9d;
+}

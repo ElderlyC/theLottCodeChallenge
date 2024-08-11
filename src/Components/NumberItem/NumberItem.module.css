@@ -1,0 +1,34 @@
+.numberItem {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.numberItem.selected {
+  background-color: rgba(143, 125, 207, 0.26);
+  color: rgb(107, 4, 107);
+  border-color: rgba(143, 125, 207, 0.1);
+}
+
+.numberItem:hover {
+  background-color: lightblue;
+}
+
+.crossedOut {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: rgba(128, 0, 128, 0.15);
+  pointer-events: none;
+}

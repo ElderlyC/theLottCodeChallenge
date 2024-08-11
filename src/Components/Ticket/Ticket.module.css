@@ -1,0 +1,57 @@
+.ticket {
+  position: relative;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.autofillButton {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 22px;
+  right: -45px;
+  background-color: rgb(160, 0, 160);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: white;
+  border-radius: 50%;
+}
+
+.autofillButton:hover {
+  background-color: darkviolet;
+}
+
+.resetButton {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 22px;
+  right: -95px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: white;
+  border-radius: 50%;
+}
+
+.resetButton:hover {
+  background-color: grey;
+}
+
+.grayBar {
+  background-color: #536872; /* Light gray color */
+  color: WHITE;
+  padding: 10px;
+  margin: 20px 0; /* Spacing between grids */
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
