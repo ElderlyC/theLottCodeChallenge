@@ -20,10 +20,10 @@ A React application for displaying and interacting with lotto draw results. This
 
 1. Clone the repository:
 
-   git clone https://github.com/ElderlyC/theLottCodeChallenge.git
+   ```git clone https://github.com/ElderlyC/theLottCodeChallenge.git```
 
 ### Testing
 
 1. To Test:
 
-   npm test
+   ```npm test```
