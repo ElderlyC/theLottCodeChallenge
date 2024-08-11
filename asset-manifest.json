@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/theLottCodeChallenge/static/css/main.4874834f.css",
+    "main.js": "/theLottCodeChallenge/static/js/main.0d05a5f3.js",
+    "static/js/453.59725090.chunk.js": "/theLottCodeChallenge/static/js/453.59725090.chunk.js",
+    "index.html": "/theLottCodeChallenge/index.html",
+    "main.4874834f.css.map": "/theLottCodeChallenge/static/css/main.4874834f.css.map",
+    "main.0d05a5f3.js.map": "/theLottCodeChallenge/static/js/main.0d05a5f3.js.map",
+    "453.59725090.chunk.js.map": "/theLottCodeChallenge/static/js/453.59725090.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4874834f.css",
+    "static/js/main.0d05a5f3.js"
+  ]
+}
